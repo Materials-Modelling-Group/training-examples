@@ -9,7 +9,7 @@
  /
  &system
     ibrav=  2, celldm(1) =10.20, nat=  2, ntyp= 1,
-    ecutwfc =18.0,
+    ecutwfc =50.0,  occupations = 'smearing', smearing = 'mv', degauss =   0.001
  /
  &electrons
     diagonalization='david'
@@ -23,4 +23,4 @@ ATOMIC_POSITIONS alat
  Si 0.00 0.00 0.00
  Si 0.25 0.25 0.25
 K_POINTS (automatic)
-  8 8 8 0 0 0
+  10 10 10 0 0 0
