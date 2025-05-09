@@ -1,5 +1,5 @@
 &BANDS
-  prefix  = "MoS2-2H"
-  outdir  = "../out"
-  filband = "MoS2-2H.bands.dat"
+  prefix = 'silicon'
+  outdir = './tmp/'
+  filband = 'si_bands.dat'
 /
