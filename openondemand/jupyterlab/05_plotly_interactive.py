@@ -1,9 +1,14 @@
 # Interactive visualizations with Plotly
+# This works in JupyterLab without any extensions
 
 import plotly.express as px
 import plotly.graph_objects as go
 import pandas as pd
 import numpy as np
+
+# Set renderer for JupyterLab compatibility
+import plotly.io as pio
+pio.renderers.default = "notebook"
 
 # Create sample data
 df = pd.DataFrame({
